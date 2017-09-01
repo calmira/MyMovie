@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListPreference
+        android:defaultValue="popular"
+        android:entries="@array/pref_category_options"
+        android:entryValues="@array/pref_category_values"
+        android:key="category"
+        android:title="Category"/>
+
+</PreferenceScreen>
